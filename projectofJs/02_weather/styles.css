@@ -1,0 +1,83 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #918c0b;
+  color: #ebe9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScP7RwxG6WT-L37yKbB8OL3Opkz3Unm8w6Mcr0bE2VEgJ7TRzZmmn1zukF&s=10");
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: #175652;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(194, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  background-color: #e2e1e8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+}
+
+button {
+  width: 25%;
+  padding: 10px;
+  background-color: #6200ea;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+#weather-info {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#error-message {
+  color: #ff5722;
+  margin-top: 20px;
+}
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScP7RwxG6WT-L37yKbB8OL3Opkz3Unm8w6Mcr0bE2VEgJ7TRzZmmn1zukF&s=10 */

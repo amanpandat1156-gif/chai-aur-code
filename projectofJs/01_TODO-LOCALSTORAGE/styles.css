@@ -1,0 +1,111 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 30px;
+  background-image: url("https://i0.wp.com/lifestyleoriginal.com/wp-content/uploads/2025/10/orange-roses-to-do-list-pads-notebook-pen-on-blue-bg.jpg?fit=2048%2C1365&ssl=1");
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+}
+
+button {
+  width: 25%;
+  padding: 10px;
+  background-color: #6200ea;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #0d0606;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+li button {
+  background-color: #ce1c1c;
+  border: #0d0606;
+  padding: 6px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #b71c1c;
+}
+/* Target the list items inside your todo-list */
+#todo-list li {
+  background-color: #470874; /* Change this hex code to your desired color */
+  color: #c7aeae; /* This changes the text color */
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 400;
+}
